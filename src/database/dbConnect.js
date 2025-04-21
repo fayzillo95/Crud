@@ -6,3 +6,4 @@ let Io = {
         return JSON.parse(fs.readFileSync(path.join(proxess.cwd(),"src","database","users.json")))
     }
 }
+export default Io
